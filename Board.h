@@ -9,7 +9,7 @@
 class Board
 {
     private:
-        std::vector < vector<char> > grid;
+        std::vector < std::vector<char> > grid;
 
 
     public:
@@ -17,6 +17,8 @@ class Board
         void fillWith(char);
         void assign(char, int, int);
         char get(int, int);
+
+        char printAll();
 
 
 
